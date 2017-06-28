@@ -21,7 +21,7 @@ body {
 
 body header#site_header {
   background-color: #ff8523;
-  padding: 20px 0 35px 19px;
+  padding: 20px 0 35px 20px;
 }
 
 body .main_navigation {
@@ -36,4 +36,29 @@ body .main_navigation {
   margin-top: 10px;
   text-decoration: none;
   color: white;
+}
+
+div#page_content section {
+  padding-left: 20px;
+}
+
+div#page_content section h2  {
+  color: #1fabe5;
+}
+
+div#page_content section h3 {
+  color: #1fabe5;
+}
+
+div section ul {
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+hr {
+  margin: 0 25px;
+  height: 5px;
+  background: #eee;
+  border: 0;
+
 }
