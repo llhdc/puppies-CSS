@@ -5,7 +5,7 @@ font info:
 
 
 colors:
-    light gray - ##eee
+    light gray - #eee
     gray - #dddddd
     yellow - #ffd24a
     orange - #ff8523
@@ -92,4 +92,28 @@ table thead tr td {
   border: 3px solid;
   border-color: black;
   padding: 10px;
+}
+
+form {
+  background-color: #eee;
+}
+
+.name {
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  border: 1px solid #ff8523;
+  border-radius: 5px;
+  background-color: #ff8523;
+  margin: 20px auto;
+}
+
+input, textarea {
+  margin: 15px;
+  padding: 15px;
+  width: 220px;
+
+.city_container {
+  background-color: #eee;
 }
